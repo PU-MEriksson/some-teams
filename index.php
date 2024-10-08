@@ -8,14 +8,16 @@
 </head>
 
 
-
-
-
 <body>
 
 <?php
 require __DIR__.'/data.php';
 ?>
+
+<header>
+    <h1>Some Teams</h1>
+    <a href="about.php">About</a>
+</header>
 
 <main>
 
