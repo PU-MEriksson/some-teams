@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 header {
@@ -12,7 +12,15 @@ header {
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
+    box-shadow: 2px 2px rgb(243, 241, 241); 
 
+}
+
+header a {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1rem; 
+    color: rgb(101, 36, 73);
+    text-decoration: none; 
 }
 
 main {
@@ -22,39 +30,55 @@ main {
     max-height: 100%;
     justify-content: space-evenly;
     width: 100%;
-    background-color: whitesmoke;
+    
 }   
 
 article {
-    background-color:white;
-    padding: 10px;    
-    box-shadow: 2px 2px lightgray;
+    background-color: white;
+    padding: 5px;    
+    box-shadow: 2px 2px rgb(243, 241, 241); 
     flex-basis: 300px; 
     min-height: 300px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px; 
+}
+
+article:hover {
+    box-shadow: 4px 4px rgb(220, 220, 220); 
 }
 
 
 img {
-    width: 100%;
-    max-width: 200px;
-    margin-bottom: 5px;
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+    margin-bottom: 5px; 
 }
 
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'poppins', sans-serif;
+    font-size: 3rem;
 }
 
 h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 1.5rem;
     margin-bottom: 5px; 
 }
 
 p {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+
+    
+}
+
+a {
+    text-decoration: none; 
+    color: rgb(101, 36, 73);
+}
+
+a:hover {
+    color: darkmagenta
 }
