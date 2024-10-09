@@ -13,7 +13,6 @@ header {
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 2px 2px rgb(243, 241, 241); 
-
 }
 
 header a {
@@ -61,6 +60,7 @@ img {
 h1 {
     font-family: 'poppins', sans-serif;
     font-size: 3rem;
+    color: rgb(16, 16, 128);
 }
 
 h2 {
@@ -75,7 +75,7 @@ p {
 
 a {
     text-decoration: none; 
-    color: rgb(101, 36, 73);
+    color: rgb(136, 49, 98);
 }
 
 a:hover {
@@ -84,9 +84,8 @@ a:hover {
 
 /* Styles for the about page */
 .about-page body {
-    font-family: 'Poppins', sans-serif; /* Ensure you have a consistent font */
-    background-color: #c16363; /* Light background color */
-    margin: 20px; /* Add margin to the body */
+    font-family: 'Poppins', sans-serif; 
+    margin: 20px; 
 }
 
 .about-page h1 {
@@ -102,7 +101,8 @@ a:hover {
     line-height: 1.6; 
     max-width: 600px; 
     margin: 0 auto; 
-    font-family: 'Cormorant Garamond', serif; ;
-
-    
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgba(243, 233, 246, 0.5); 
+    padding: 10px;
+    border-radius: 5px
 }
