@@ -21,8 +21,7 @@ require __DIR__.'/header.php';
                 Rank: <?=$teamData['uefa-coefficient-ranking']?> <br>
                 Group: <?=$teamData['group']?> <br>
                 <a href="<?=$teamData['url']?>">Official webpage</a>
-            </p>
-            
+            </p>   
         </article>
     <?php endforeach; ?>
 
