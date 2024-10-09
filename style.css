@@ -52,10 +52,11 @@ article:hover {
 
 img {
     width: 100%; 
-    height: 300px; 
-    object-fit: cover; 
-    margin-bottom: 5px; 
-}
+    height: auto; 
+    object-fit: contain; 
+    max-height: 200px; 
+    margin-bottom: 5px;
+} 
 
 h1 {
     font-family: 'poppins', sans-serif;
@@ -69,9 +70,7 @@ h2 {
 }
 
 p {
-    font-family: 'Cormorant Garamond', serif;
-
-    
+    font-family: 'Cormorant Garamond', serif;  
 }
 
 a {
@@ -81,4 +80,29 @@ a {
 
 a:hover {
     color: darkmagenta
+}
+
+/* Styles for the about page */
+.about-page body {
+    font-family: 'Poppins', sans-serif; /* Ensure you have a consistent font */
+    background-color: #c16363; /* Light background color */
+    margin: 20px; /* Add margin to the body */
+}
+
+.about-page h1 {
+    text-align: center; 
+    color: #333; 
+}
+
+
+.about-page p {
+    
+    text-align: left; 
+    color: #555; 
+    line-height: 1.6; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    font-family: 'Cormorant Garamond', serif; ;
+
+    
 }
